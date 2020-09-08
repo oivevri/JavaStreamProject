@@ -11,6 +11,7 @@ public class FromFileExample {
 		String file = "list.txt";
 		// D:\Dev\workspace\JavaStreamProject 에 만든 list.txt
 		// 왜 바로오냐? 같은 프로젝트 안 바로 그 경로라서 그런가?
+		// 깃하니까 list.txt도 경로 같이 바뀌네 D:\Dev\git\JavaStreamProject\JavaStreamProject 여기로 옮겨짐
 
 		String file2 = "src/streams/StreamExample.java";
 		// 얘는 이클립스에서 만들었던 거. streams패키지에 있던애
