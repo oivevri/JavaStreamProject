@@ -20,5 +20,14 @@ public class IntExample {
 			}
 		}).sum();
 		System.out.println("짝수 합: " + sum);
+		
+		System.out.println("> range : 범위미만");
+		IntStream.range(1, 10).forEach(s -> System.out.println(s));
+		
+		System.out.println("> rangeClosed : 범위이하");
+		IntStream.rangeClosed(1, 10).forEach(System.out::println);
+		
+		System.out.println("> rangeClosed + 필터(: 조건을 만족하는 것만 걸러내겠다)");
+		IntStream.rangeClosed(1, 10).filter(n -> n>5).forEach(System.out::println);
 	}
 }
