@@ -42,7 +42,7 @@ public class StreamMapExample {
 					LocalDate hireDate = rs.getDate("hire_date").toLocalDate();
 					
 					System.out.println(hireDate);
-					emp.setHireDate(date);
+					emp.setHireDate(hireDate);
 				}
 			
 			} catch (SQLException e) {
