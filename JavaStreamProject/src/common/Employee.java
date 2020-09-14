@@ -51,8 +51,11 @@ public Employee() {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public LocalDate getHireDate() {
-		return this.getHireDate();
+//	public LocalDate getHireDate() {
+//		return this.getHireDate();
+//	}
+	public String getHireDateString() {
+		return this.hireDate.toString();
 	}
 	public void setHireDate(LocalDate hireDate) {
 		this.hireDate = hireDate;
