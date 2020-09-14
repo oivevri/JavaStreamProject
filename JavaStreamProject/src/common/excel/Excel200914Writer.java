@@ -50,7 +50,7 @@ public class Excel200914Writer {
 			cell = row.createCell(4);
 			cell.setCellValue(emp.getSalary());
 			cell = row.createCell(5);
-			cell.setCellValue(emp.getHireDateString());
+			cell.setCellValue(emp.getHireDate());
 		}
 
 		File file = new File("it_prog.xls");
